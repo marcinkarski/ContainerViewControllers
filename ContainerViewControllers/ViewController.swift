@@ -1,20 +1,30 @@
-//
-//  ViewController.swift
-//  ContainerViewControllers
-//
-//  Created by Marcin Karski on 19/01/2019.
-//  Copyright © 2019 Marcin Karski. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setup()
     }
-
-
+    
+    private func setup() {
+        view.backgroundColor = .white
+        self.title = "Container View Controllers"
+    }
 }
 
+class LoadingViewController: UIViewController {
+    private lazy var activityIndicator = UIActivityIndicatorView(style: .gray)
+}
+
+class ErrorViewController: UIViewController {
+    private lazy var errorLabel = UILabel()
+}
+
+class ProductContentViewController: UIViewController {
+    private lazy var productView = ProductView()
+    
+    class ProductView: UIView {
+        
+    }
+}
