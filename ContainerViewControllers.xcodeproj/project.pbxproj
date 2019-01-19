@@ -12,6 +12,7 @@
 		2E5F7E8321F35D7500B3D767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5F7E8221F35D7500B3D767 /* Assets.xcassets */; };
 		2E5F7E8621F35D7500B3D767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5F7E8421F35D7500B3D767 /* LaunchScreen.storyboard */; };
 		2E5F7E8E21F36C7000B3D767 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F7E8D21F36C7000B3D767 /* UIViewController.swift */; };
+		2E5F7E9121F3A2DE00B3D767 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F7E9021F3A2DE00B3D767 /* LoadingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2E5F7E8521F35D7500B3D767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E5F7E8721F35D7500B3D767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E5F7E8D21F36C7000B3D767 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		2E5F7E9021F3A2DE00B3D767 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				2E5F7E7B21F35D7400B3D767 /* AppDelegate.swift */,
 				2E5F7E7D21F35D7400B3D767 /* ViewController.swift */,
-				2E5F7E8D21F36C7000B3D767 /* UIViewController.swift */,
+				2E5F7E9021F3A2DE00B3D767 /* LoadingViewController.swift */,
+				2E5F7E8F21F3A28100B3D767 /* Extensions */,
 				2E5F7E8221F35D7500B3D767 /* Assets.xcassets */,
 				2E5F7E8421F35D7500B3D767 /* LaunchScreen.storyboard */,
 				2E5F7E8721F35D7500B3D767 /* Info.plist */,
 			);
 			path = ContainerViewControllers;
+			sourceTree = "<group>";
+		};
+		2E5F7E8F21F3A28100B3D767 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E5F7E8D21F36C7000B3D767 /* UIViewController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 				2E5F7E7E21F35D7400B3D767 /* ViewController.swift in Sources */,
 				2E5F7E7C21F35D7400B3D767 /* AppDelegate.swift in Sources */,
 				2E5F7E8E21F36C7000B3D767 /* UIViewController.swift in Sources */,
+				2E5F7E9121F3A2DE00B3D767 /* LoadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
